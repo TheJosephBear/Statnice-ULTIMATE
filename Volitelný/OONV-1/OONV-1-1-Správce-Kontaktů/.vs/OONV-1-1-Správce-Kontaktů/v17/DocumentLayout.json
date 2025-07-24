@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\",
+  "WorkspaceRootPath": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\josef\\documents\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\josef\\documents\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\josef\\documents\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\josef\\documents\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPrototype.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\IPrototype.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\IPrototype.cs",
+              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\IPrototype.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\IPrototype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T20:39:20.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Contact.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Contact.cs",
+              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Contact.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T20:37:47.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Main.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Main.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Main.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "ContactManager.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactManager.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactManager.cs",
+              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactManager.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T20:37:28.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\MainClass.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\MainClass.cs",
+              "ToolTip": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\MainClass.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\MainClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T15:33:42.285Z",
               "EditorCaption": ""

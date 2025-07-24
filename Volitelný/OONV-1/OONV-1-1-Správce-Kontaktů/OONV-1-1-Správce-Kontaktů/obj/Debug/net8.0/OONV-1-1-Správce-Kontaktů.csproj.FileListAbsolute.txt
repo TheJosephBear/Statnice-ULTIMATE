@@ -1,0 +1,15 @@
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\bin\Debug\net8.0\OONV-1-1-Správce-Kontaktů.exe
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\bin\Debug\net8.0\OONV-1-1-Správce-Kontaktů.deps.json
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\bin\Debug\net8.0\OONV-1-1-Správce-Kontaktů.runtimeconfig.json
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\bin\Debug\net8.0\OONV-1-1-Správce-Kontaktů.dll
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\bin\Debug\net8.0\OONV-1-1-Správce-Kontaktů.pdb
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.AssemblyInfoInputs.cache
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.AssemblyInfo.cs
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.csproj.CoreCompileInputs.cache
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.sourcelink.json
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.dll
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\refint\OONV-1-1-Správce-Kontaktů.dll
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.pdb
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.genruntimeconfig.cache
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\ref\OONV-1-1-Správce-Kontaktů.dll

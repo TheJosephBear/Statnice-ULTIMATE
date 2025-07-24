@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů.csproj": {}
+    "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-2-Studjiní-Systém\\StudijniSystem\\StudijniSystem\\StudijniSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů.csproj": {
+    "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-2-Studjiní-Systém\\StudijniSystem\\StudijniSystem\\StudijniSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů.csproj",
-        "projectName": "OONV-1-1-Správce-Kontaktů",
-        "projectPath": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů.csproj",
+        "projectUniqueName": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-2-Studjiní-Systém\\StudijniSystem\\StudijniSystem\\StudijniSystem.csproj",
+        "projectName": "StudijniSystem",
+        "projectPath": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-2-Studjiní-Systém\\StudijniSystem\\StudijniSystem\\StudijniSystem.csproj",
         "packagesPath": "C:\\Users\\josef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-1-Správce-Kontaktů\\OONV-1-1-Správce-Kontaktů\\obj\\",
+        "outputPath": "C:\\Users\\josef\\Documents\\GitHub\\Statnice-ULTIMATE\\Volitelný\\OONV-1\\OONV-1-2-Studjiní-Systém\\StudijniSystem\\StudijniSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josef\\AppData\\Roaming\\NuGet\\NuGet.Config",

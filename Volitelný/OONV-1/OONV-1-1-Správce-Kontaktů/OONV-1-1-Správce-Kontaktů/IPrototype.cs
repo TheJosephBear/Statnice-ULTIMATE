@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace OONV_1_1_Správce_Kontaktů {
-    internal class Main {
-
+    internal interface IPrototype<T> {
+        public T Copy();
     }
 }
