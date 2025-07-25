@@ -12,9 +12,8 @@ using System.Diagnostics;
 namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     internal class ViewContactCreation : IView {
 
-        private bool _contactCreationMode = false;
         private Contact _newContactInProgress;
-        private ContactCreationStep _creationStep = ContactCreationStep.EnterName;
+        private ContactCreationStep _creationStep;
 
         private enum ContactCreationStep {
             EnterName,
@@ -23,8 +22,10 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
             Done
         }
 
-        public ViewContactCreation() {
-            Trace.WriteLine("Contact creation view konstruktor called");
+        public void Initialize() {
+            Trace.WriteLine(" initialize in creation ");
+            _newContactInProgress = new Contact();
+            _creationStep = ContactCreationStep.EnterName;
         }
 
         public void Render() {
@@ -40,7 +41,6 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
         public void HandleInput(string input) {
             switch (_creationStep) {
                 case ContactCreationStep.EnterName:
-                    _newContactInProgress = new Contact(); // New clean contact
                     _newContactInProgress.Name = input;
                     _creationStep = ContactCreationStep.EnterEmail;
                     Console.WriteLine("Enter email:");
@@ -70,9 +70,6 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
             CommandManager.Instance.ExecuteCommand(createCmd);
 
             Console.WriteLine("(System): Contact created successfully.");
-
-            _contactCreationMode = false;
-            _newContactInProgress = null;
         }
 
     }

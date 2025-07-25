@@ -7,13 +7,17 @@ using OONV_1_1_Správce_Kontaktů.Commands.Interface;
 using OONV_1_1_Správce_Kontaktů.ConsoleSystem;
 using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views;
 
-namespace OONV_1_1_Správce_Kontaktů.Commands.Commands {
-    internal class CommandEnterContactListView : ICommand {
-        public void Execute() {
+namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation
+{
+    internal class CommandEnterContactListView : ICommand
+    {
+        public void Execute()
+        {
             NavigationManager.Instance.PushView(new ViewContactList());
         }
 
-        public void Undo() {
+        public void Undo()
+        {
             NavigationManager.Instance.PopView();
         }
     }

@@ -33,6 +33,10 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
 
         }
 
+        public void SaveContacts() {
+
+        }
+
         public List<Contact> GetContactList() {
             return _contacts;
         }

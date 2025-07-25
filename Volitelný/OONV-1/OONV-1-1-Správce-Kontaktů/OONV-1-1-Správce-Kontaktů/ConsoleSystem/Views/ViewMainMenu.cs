@@ -13,8 +13,8 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
 
         CommandDictionary _commandDictionary;
 
-        public ViewMainMenu() {
-            Trace.WriteLine("Main menu view konstruktor called");
+        public void Initialize() {
+            Trace.WriteLine("_commandDictionary initialize in menu: ");
             _commandDictionary = new CommandDictionary();
             _commandDictionary.AddInputPair("1", new CommandEnterContactListView());
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,17 +19,24 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem
         }
 
         public void PushView(IView view) {
+            Trace.WriteLine("Pushing view: " + view.ToString());
             _viewStack.Push(view);
-            _currentView = view;
-            Console.Clear();
-            view.Render();
+            ShowView(view);
         }
         
         public void PopView() {
             if (_viewStack.Count > 1)
+                Trace.WriteLine("Popping view: " + _viewStack.Peek().ToString());
                 _viewStack.Pop();
+            ShowView(_viewStack.Peek());
+        }
+
+        void ShowView(IView view) {
+            Trace.WriteLine("Showing view: " + view.ToString());
+            _currentView = view;
             Console.Clear();
-            _viewStack.Peek().Render();
+            view.Initialize();
+            view.Render();
         }
 
         public void HandleInput(string input) {
@@ -45,6 +53,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem
                     break;
                 default:
                     // View input handle
+                    Trace.WriteLine($"{_currentView.ToString()} is handling input ");
                     _currentView.HandleInput(input);
                     break;
             }

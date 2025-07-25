@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OONV-1-1-Správce-Kontaktů")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+696b9052257d99b122e949b563cd7837127ecdc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4abf8b0242c48f09a2ffd6cbabd43c24b2a93751")]
 [assembly: System.Reflection.AssemblyProductAttribute("OONV-1-1-Správce-Kontaktů")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OONV-1-1-Správce-Kontaktů")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

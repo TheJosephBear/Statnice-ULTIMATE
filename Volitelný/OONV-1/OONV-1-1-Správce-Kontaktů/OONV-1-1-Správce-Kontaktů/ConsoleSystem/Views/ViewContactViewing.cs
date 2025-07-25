@@ -9,11 +9,19 @@ using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface;
 
 namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     internal class ViewContactViewing : IView {
+
         CommandDictionary _commandDictionary;
 
-        public ViewContactViewing() {
+        public void Initialize() {
+            SetupCommands();
+        }
+
+        void SetupCommands() {
             _commandDictionary = new CommandDictionary();
-            _commandDictionary.AddInputPair("1", new CommandEnterContactCreationView());
+            // Edit name
+            // Edit phone number
+            // Edit email
+            // Copy contact
         }
 
         public void Render() {

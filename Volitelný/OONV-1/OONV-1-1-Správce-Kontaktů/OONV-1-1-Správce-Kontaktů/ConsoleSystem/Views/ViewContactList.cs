@@ -15,12 +15,22 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     internal class ViewContactList : IView {
 
         CommandDictionary _commandDictionary;
-        bool _contactCreationMode = false;
+        bool _renderClassicList = true;
 
-        public ViewContactList() {
-            Trace.WriteLine("Contact list view konstruktor called");
+        public void Initialize() {
+            Trace.WriteLine("_commandDictionary initialize in list: ");
+            SetupCommands();
+            _renderClassicList = true;
+            // Načíst uložené kontakty
+        }
+
+        void SetupCommands() {
             _commandDictionary = new CommandDictionary();
             _commandDictionary.AddInputPair("1", new CommandEnterContactCreationView());
+            // Otevřit kontakt
+            // Vyhledávání
+            // Uložit kontakty
+            // Filtrace
             _commandDictionary.AddInputPair("2", new CommandRenderAlphabeticalContacts(this));
         }
 
@@ -33,7 +43,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
             Console.WriteLine("> undo - Undo last action");
             Console.WriteLine("> back - Go to previous menu");
             Console.WriteLine("> exit - Exit application");
-            RenderClassicList();
+            if (_renderClassicList) RenderClassicList();
         }
 
         public void HandleInput(string input) {
@@ -60,12 +70,15 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
         }
 
         public void RenderAlphabeticalList() {
+            Console.Clear();
+            _renderClassicList = false;
             Render();
             IIterator<Contact> iterator = ContactManager.Instance.GetContactIterator(Iterator.Interface.ListIteratorType.Alphabetical);
             while (iterator.HasNext()) { // while protože mám vlastní iterátor a nespoléhám se na to že prvky jsou ienumerable
                 var contact = iterator.GetNext();
                 Console.WriteLine($"({iterator.GetCurrentIndex()}): {contact.Name}");
             }
+            _renderClassicList = true;
         }
     }
 }
