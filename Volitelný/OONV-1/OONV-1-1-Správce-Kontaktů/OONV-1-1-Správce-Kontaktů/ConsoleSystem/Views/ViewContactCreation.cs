@@ -8,6 +8,7 @@ using OONV_1_1_Správce_Kontaktů.Commands;
 using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface;
 using OONV_1_1_Správce_Kontaktů.ContactSystem;
 using System.Diagnostics;
+using OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation;
 
 namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     internal class ViewContactCreation : IView {

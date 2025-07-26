@@ -5,24 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using OONV_1_1_Správce_Kontaktů.Commands.Interface;
 using OONV_1_1_Správce_Kontaktů.ConsoleSystem;
+using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views;
 using OONV_1_1_Správce_Kontaktů.ContactSystem;
 
-namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
-    internal class CommandRemoveContact : ICommand {
-        
+namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation {
+    internal class CommandEnterContactViewing : ICommand {
+
         Contact _contactReff;
 
-        public CommandRemoveContact(Contact contact) {
+        public CommandEnterContactViewing(Contact contact) {
             _contactReff = contact;
         }
 
         public void Execute() {
-            ContactManager.Instance.DeleteContact(_contactReff);
-            NavigationManager.Instance.PopView();
+            ContactManager.Instance.SetActiveContact(_contactReff);
+            NavigationManager.Instance.PushView(new ViewContactViewing());
         }
 
         public void Undo() {
-            ContactManager.Instance.AddContact(_contactReff);
+            NavigationManager.Instance.PopView();
         }
     }
 }

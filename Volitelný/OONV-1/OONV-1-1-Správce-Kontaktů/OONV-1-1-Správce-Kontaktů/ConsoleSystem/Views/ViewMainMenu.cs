@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using OONV_1_1_Správce_Kontaktů.Commands;
 using OONV_1_1_Správce_Kontaktů.Commands.Commands;
 using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface;
+using OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation;
+using OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation;
 
 namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     internal class ViewMainMenu : IView {

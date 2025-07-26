@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandsavecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandsavecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactviewing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactviewing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandremovecontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandremovecontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactsystem\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactsystem\\contactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactsystem\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactsystem\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactsystem\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\contactsystem\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandremovecontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandremovecontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactviewing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactviewing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactcreationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactcreationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandcreatenewcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,52 +67,12 @@
       "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandcopycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactviewing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactviewing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactcreationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactcreationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewcontactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\views\\viewmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactediting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactediting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\contactmanipulation\\commandeditcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\interface\\iview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\interface\\iview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commands\\navigation\\commandentercontactlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\iterator\\contactalphabeticaliterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\commands\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|c:\\users\\popa4\\onedrive\\dokumenty\\github\\statnice-ultimate\\voliteln\u00FD\\oonv-1\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\consolecommanddictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFB9B4F9-3D84-4798-A8F3-DFE34453A431}|OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F.csproj|solutionrelative:oonv-1-1-spr\u00E1vce-kontakt\u016F\\consolesystem\\consolecommanddictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,123 +114,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavigationManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwCIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:20:35.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewContactViewing.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswCsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:34:19.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewContactList.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwEoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T13:48:58.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CommandSaveContacts.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandSaveContacts.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandSaveContacts.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandSaveContacts.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandSaveContacts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T11:55:50.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\FileManager.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\FileManager.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\FileManager.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\FileManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T10:58:38.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ContactManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\ContactManager.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\ContactManager.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\ContactManager.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\ContactManager.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCQAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T20:37:28.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\Contact.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\Contact.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\Contact.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ContactSystem\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAvwA0AAAAoAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T20:37:47.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CommandRemoveContact.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandRemoveContact.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandRemoveContact.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandRemoveContact.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandRemoveContact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T19:33:52.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "CommandCopyContact.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCopyContact.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCopyContact.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCopyContact.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCopyContact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T19:33:44.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommandEditNumber.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditNumber.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditNumber.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditNumber.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditNumber.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 16,
+              "Title": "CommandEditContact.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditContact.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditContact.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditContact.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditContact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T19:33:33.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CommandEditEmail.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditEmail.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditEmail.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditEmail.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditEmail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T19:33:22.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CommandEditName.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditName.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditName.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditName.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandEditName.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T19:33:16.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CommandEnterContactEditing.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactEditing.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactEditing.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactEditing.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactEditing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "CommandEnterContactViewing.cs",
+              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactViewing.cs",
+              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactViewing.cs",
+              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactViewing.cs",
+              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactViewing.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T19:32:39.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NavigationManager.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\NavigationManager.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:20:35.827Z",
               "EditorCaption": ""
             },
             {
@@ -241,53 +267,27 @@
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewMainMenu.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewMainMenu.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewMainMenu.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T13:21:10.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ViewContactList.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactList.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwB8AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:48:58.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ViewContactCreation.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactCreation.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactCreation.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactCreation.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactCreation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T15:47:11.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViewContactViewing.cs",
-              "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
-              "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
-              "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
-              "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Views\\ViewContactViewing.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T15:34:19.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CommandEnterContactCreationView.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactCreationView.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactCreationView.cs",
@@ -300,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CommandRenderAlphabeticalContacts.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\CommandRenderAlphabeticalContacts.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\CommandRenderAlphabeticalContacts.cs",
@@ -312,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MainClass.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\MainClass.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\MainClass.cs",
@@ -324,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IView.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Interface\\IView.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Interface\\IView.cs",
@@ -332,38 +332,37 @@
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\ConsoleSystem\\Interface\\IView.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T13:20:44.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T13:20:44.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "CommandCreateNewContact.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCreateNewContact.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCreateNewContact.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCreateNewContact.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\ContactManipulation\\CommandCreateNewContact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T15:27:45.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "CommandEnterContactListView.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactListView.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactListView.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactListView.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Commands\\Navigation\\CommandEnterContactListView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T13:37:32.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CommandDictionary.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\CommandDictionary.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\CommandDictionary.cs",
@@ -375,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IIterator.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Iterator\\Interface\\IIterator.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Iterator\\Interface\\IIterator.cs",
@@ -387,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ICommand.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Interface\\ICommand.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\Interface\\ICommand.cs",
@@ -399,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ContactAlphabeticalIterator.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Iterator\\ContactAlphabeticalIterator.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Iterator\\ContactAlphabeticalIterator.cs",
@@ -411,15 +410,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "CommandManager.cs",
               "DocumentMoniker": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\CommandManager.cs",
               "RelativeDocumentMoniker": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\CommandManager.cs",
               "ToolTip": "C:\\Users\\popa4\\OneDrive\\Dokumenty\\GitHub\\Statnice-ULTIMATE\\Voliteln\u00FD\\OONV-1\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\CommandManager.cs",
               "RelativeToolTip": "OONV-1-1-Spr\u00E1vce-Kontakt\u016F\\Commands\\CommandManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T14:00:35.145Z"
+              "WhenOpened": "2025-07-24T14:00:35.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
