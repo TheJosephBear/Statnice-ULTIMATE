@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface;
-
-namespace OONV_1_1_Správce_Kontaktů.Commands.Interface
-{
+﻿namespace OONV_1_1_Správce_Kontaktů.Commands.Interface {
+    /// <summary>
+    /// Represents a command with executable and undoable behavior.
+    /// </summary>
     internal interface ICommand {
-        public void Execute();
-        public void Undo();
+        /// <summary>
+        /// Executes the command's main logic.
+        /// </summary>
+        void Execute();
+
+        /// <summary>
+        /// Undoes the effect of the command.
+        /// </summary>
+        void Undo();
     }
 }

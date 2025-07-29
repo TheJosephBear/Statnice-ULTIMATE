@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OONV_1_1_Správce_Kontaktů.Commands.Commands;
-using OONV_1_1_Správce_Kontaktů.Commands;
+﻿using OONV_1_1_Správce_Kontaktů.Commands;
 using OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface;
 using OONV_1_1_Správce_Kontaktů.ContactSystem;
 using System.Diagnostics;
 using OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation;
 
 namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
+    /// <summary>
+    /// View for creating a new contact step-by-step via user input.
+    /// </summary>
     internal class ViewContactCreation : IView {
-
         private Contact _newContactInProgress;
         private ContactCreationStep _creationStep;
 
+        /// <summary>
+        /// Steps of the contact creation wizard.
+        /// </summary>
         private enum ContactCreationStep {
             EnterName,
             EnterEmail,
@@ -23,12 +22,14 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
             Done
         }
 
+        /// <inheritdoc/>
         public void Initialize() {
             Trace.WriteLine(" initialize in creation ");
             _newContactInProgress = new Contact();
             _creationStep = ContactCreationStep.EnterName;
         }
 
+        /// <inheritdoc/>
         public void Render() {
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine("|||||||||||||-Contact Creation-|||||||||||||");
@@ -39,6 +40,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
             Console.WriteLine("Enter name:");
         }
 
+        /// <inheritdoc/>
         public void HandleInput(string input) {
             switch (_creationStep) {
                 case ContactCreationStep.EnterName:
@@ -59,6 +61,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
                     FinalizeContactCreation();
                     Console.WriteLine("Enter anything to continue...");
                     break;
+
                 case ContactCreationStep.Done:
                     _creationStep = ContactCreationStep.EnterName;
                     NavigationManager.Instance.PopView();
@@ -66,12 +69,14 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
             }
         }
 
+        /// <summary>
+        /// Finalizes the creation of a contact and registers the creation command.
+        /// </summary>
         private void FinalizeContactCreation() {
             var createCmd = new CommandCreateNewContact(_newContactInProgress);
             CommandManager.Instance.ExecuteCommand(createCmd);
 
             Console.WriteLine("(System): Contact created successfully.");
         }
-
     }
 }

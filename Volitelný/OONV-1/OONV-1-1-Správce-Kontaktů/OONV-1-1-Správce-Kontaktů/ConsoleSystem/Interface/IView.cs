@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OONV_1_1_Správce_Kontaktů.Commands;
-
-namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface {
+﻿namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface {
+    /// <summary>
+    /// Interface for views in the console application.
+    /// Defines lifecycle and input-handling methods for views.
+    /// </summary>
     internal interface IView {
-        public void Initialize();
-        public void Render();
-        public void HandleInput(string input);
+        /// <summary>
+        /// Initializes the view. Called when the view becomes active.
+        /// </summary>
+        void Initialize();
+
+        /// <summary>
+        /// Renders the view output to the console.
+        /// </summary>
+        void Render();
+
+        /// <summary>
+        /// Handles user input specific to the view.
+        /// </summary>
+        /// <param name="input">Input string from the user.</param>
+        void HandleInput(string input);
     }
 }

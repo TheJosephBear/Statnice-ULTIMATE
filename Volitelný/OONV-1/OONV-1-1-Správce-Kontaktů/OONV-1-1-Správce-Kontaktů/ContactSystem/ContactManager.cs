@@ -1,53 +1,76 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using OONV_1_1_Správce_Kontaktů.Interface;
 using OONV_1_1_Správce_Kontaktů.Iterator;
 using OONV_1_1_Správce_Kontaktů.Iterator.Interface;
 using System.Text.Json;
 
 namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
+    /// <summary>
+    /// Manages contacts, providing CRUD, persistence, and iteration features.
+    /// Implements singleton pattern.
+    /// </summary>
     internal class ContactManager : Singleton<ContactManager> {
-
-        List<Contact> _contacts;
-        string contactsFileName = "Contacts";
-        Contact _activeContact; // Opened contact for editing
+        private List<Contact> _contacts;
+        private readonly string contactsFileName = "Contacts";
+        private Contact _activeContact; // Opened contact for editing
 
         public ContactManager() {
             _contacts = new List<Contact>();
             LoadContacts();
         }
 
+        /// <summary>
+        /// Adds a contact to the contact list.
+        /// </summary>
         public void AddContact(Contact contact) {
             _contacts.Add(contact);
         }
 
+        /// <summary>
+        /// Creates a copy of a contact and adds it to the list.
+        /// </summary>
+        /// <param name="contact">Contact to copy.</param>
+        /// <param name="copySameName">Whether to keep the same name.</param>
+        /// <returns>The copied contact.</returns>
         public Contact CreateContactCopy(Contact contact, bool copySameName = false) {
             Contact contactCopy = contact.Copy(copySameName);
             _contacts.Add(contactCopy);
             return contactCopy;
         }
 
+        /// <summary>
+        /// Creates a temporary copy of a contact without adding it to the list.
+        /// </summary>
         public Contact CreateTemporaryCopy(Contact contactToCopy) {
             return contactToCopy.Copy(true);
         }
 
+        /// <summary>
+        /// Updates an existing contact with data from another contact.
+        /// </summary>
         public void UpdateContact(Contact contact, Contact updatedContact) {
             contact.Name = updatedContact.Name;
             contact.PhoneNumber = updatedContact.PhoneNumber;
             contact.Email = updatedContact.Email;
         }
 
+        /// <summary>
+        /// Removes a contact from the list.
+        /// </summary>
         public void DeleteContact(Contact contact) {
             _contacts.Remove(contact);
         }
 
+        /// <summary>
+        /// Saves all contacts to a JSON file.
+        /// </summary>
         public void SaveContacts() {
-            FileManager.SaveIntoFile(contactsFileName+".json", GetContactListAsJson());
+            FileManager.SaveIntoFile(contactsFileName + ".json", GetContactListAsJson());
         }
 
+        /// <summary>
+        /// Loads contacts from the JSON file.
+        /// </summary>
         public void LoadContacts() {
             string json = FileManager.GetFileAsString(contactsFileName + ".json");
 
@@ -69,7 +92,10 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
             }
         }
 
-        string GetContactListAsJson() {
+        /// <summary>
+        /// Returns all contacts serialized as a JSON array string.
+        /// </summary>
+        private string GetContactListAsJson() {
             StringBuilder sb = new StringBuilder();
             sb.Append("[");
 
@@ -83,10 +109,16 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Gets the full contact list.
+        /// </summary>
         public List<Contact> GetContactList() {
             return _contacts;
         }
 
+        /// <summary>
+        /// Returns an iterator for the contact list based on specified type.
+        /// </summary>
         public IIterator<Contact> GetContactIterator(ListIteratorType type) {
             switch (type) {
                 case ListIteratorType.Alphabetical:
@@ -96,13 +128,18 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
             }
         }
 
+        /// <summary>
+        /// Sets the active contact being edited.
+        /// </summary>
         public void SetActiveContact(Contact contact) {
             _activeContact = contact;
         }
 
+        /// <summary>
+        /// Gets the currently active contact.
+        /// </summary>
         public Contact GetActiveContact() {
             return _activeContact;
         }
-
     }
 }

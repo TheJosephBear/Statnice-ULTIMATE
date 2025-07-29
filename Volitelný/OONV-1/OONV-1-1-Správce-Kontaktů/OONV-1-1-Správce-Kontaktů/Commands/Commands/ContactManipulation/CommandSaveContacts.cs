@@ -1,22 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OONV_1_1_Správce_Kontaktů.Commands.Interface;
+﻿using OONV_1_1_Správce_Kontaktů.Commands.Interface;
 using OONV_1_1_Správce_Kontaktů.ContactSystem;
 
 namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
+    /// <summary>
+    /// Command to save all current contacts.
+    /// </summary>
     internal class CommandSaveContacts : ICommand {
-
+        /// <summary>
+        /// Executes saving of contacts.
+        /// </summary>
         public void Execute() {
-            Console.WriteLine("Contacts saved!"); // i know i shouldnt write into console through here but it is the fastest way to do it
+            Console.WriteLine("Contacts saved!"); // TEMPORARY: Consider injecting a logging system later
             ContactManager.Instance.SaveContacts();
         }
 
+        /// <summary>
+        /// Cannot undo a save operation.
+        /// </summary>
         public void Undo() {
-            // Can't undo that!
+            // Not supported
         }
-
     }
 }
