@@ -6,6 +6,9 @@
     <RootNamespace>OONV_1_1_Správce_Kontaktů</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile></DocumentationFile>
+    <BaseOutputPath>C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\Build</BaseOutputPath>
   </PropertyGroup>
 
 </Project>

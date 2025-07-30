@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.3.22.0" projectFile="C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\Sandcastle\sandcastleSomething.shfbproj" started="30.07.2025 15:05:13">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Voliteln&#253;\OONV-1\OONV-1-1-Spr&#225;vce-Kontaktů\Sandcastle
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2025.3.22.0
+Copyright &#169; 2006-2025, Eric Woodruff, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Voliteln&#253;\OONV-1\OONV-1-1-Spr&#225;vce-Kontaktů\Build\Debug\net8.0\dokumentace.xml
+Source: C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Voliteln&#253;\OONV-1\OONV-1-1-Spr&#225;vce-Kontaktů\Build\Debug\net8.0\OONV-1-1-Spr&#225;vce-Kontaktů.exe
+    Found assembly &#39;C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Voliteln&#253;\OONV-1\OONV-1-1-Spr&#225;vce-Kontaktů\Build\Debug\net8.0\OONV-1-1-Spr&#225;vce-Kontaktů.exe&#39;
+
+Copying XML comments files
+    C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Voliteln&#253;\OONV-1\OONV-1-1-Spr&#225;vce-Kontaktů\Build\Debug\net8.0\dokumentace.xml -&gt; C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Voliteln&#253;\OONV-1\OONV-1-1-Spr&#225;vce-Kontaktů\Sandcastle\Help\Working\dokumentace.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Angličtina (Spojen&#233; st&#225;ty))...
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0110
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-979589f1-83f4-452c-9741-3ff936128e00.proj]
+Vytv&#160;&#253;enˇ sestavenˇ bylo zah&#160;jeno 30.07.2025 15:05:15.
+
+Projekt C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelně\OONV-1\OONV-1-1-Spr&#160;vce-Kontakt…\Sandcastle\Help\Working\GenerateRefInfo-979589f1-83f4-452c-9741-3ff936128e00.proj v uzlu 1 (věchozˇ cˇle).
+PrepareForBuild:
+  Probˇh&#160; vytv&#160;&#253;enˇ adres&#160;&#253;e obj\Debug\.
+GenerateRefInfo:
+  Microsoft.Build (v17.9.5+33de0b227b4e7e8f4526049b64f4b7558fcb8844)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 0 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 0 namespaces, 0 types, and 0 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Sestavenˇ projektu C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelně\OONV-1\OONV-1-1-Spr&#160;vce-Kontakt…\Sandcastle\Help\Working\GenerateRefInfo-979589f1-83f4-452c-9741-3ff936128e00.proj (s věchozˇmi cˇli) bylo dokonźeno.
+    Last step complet
