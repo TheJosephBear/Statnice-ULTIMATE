@@ -7,7 +7,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     /// <summary>
     /// Entry view that displays the main menu options.
     /// </summary>
-    internal class ViewMainMenu : IView {
+    public class ViewMainMenu : IView {
         private CommandDictionary _commandDictionary;
 
         /// <inheritdoc/>

@@ -9,7 +9,7 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
     /// Manages contacts, providing CRUD, persistence, and iteration features.
     /// Implements singleton pattern.
     /// </summary>
-    internal class ContactManager : Singleton<ContactManager> {
+    public class ContactManager : Singleton<ContactManager> {
         private List<Contact> _contacts;
         private readonly string contactsFileName = "Contacts";
         private Contact _activeContact; // Opened contact for editing

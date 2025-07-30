@@ -6,7 +6,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation {
     /// <summary>
     /// Command to enter the contact creation view.
     /// </summary>
-    internal class CommandEnterContactCreationView : ICommand {
+    public class CommandEnterContactCreationView : ICommand {
         /// <summary>
         /// Pushes the contact creation view onto the navigation stack.
         /// </summary>

@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
     /// <summary>
     /// Command to create a copy of a given contact.
     /// </summary>
-    internal class CommandCopyContact : ICommand {
+    public class CommandCopyContact : ICommand {
         private Contact _contactReff;
 
         /// <summary>

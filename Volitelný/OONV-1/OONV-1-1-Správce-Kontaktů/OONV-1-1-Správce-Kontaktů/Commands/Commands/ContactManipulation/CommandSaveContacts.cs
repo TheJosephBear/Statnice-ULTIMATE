@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
     /// <summary>
     /// Command to save all current contacts.
     /// </summary>
-    internal class CommandSaveContacts : ICommand {
+    public class CommandSaveContacts : ICommand {
         /// <summary>
         /// Executes saving of contacts.
         /// </summary>

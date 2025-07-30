@@ -6,7 +6,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
     /// <summary>
     /// Command to remove a contact and return to the previous view.
     /// </summary>
-    internal class CommandRemoveContact : ICommand {
+    public class CommandRemoveContact : ICommand {
         private Contact _contactReff;
 
         /// <summary>

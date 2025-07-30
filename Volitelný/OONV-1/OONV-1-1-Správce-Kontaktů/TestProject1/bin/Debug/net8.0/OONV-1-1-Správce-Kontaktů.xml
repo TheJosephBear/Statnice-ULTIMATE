@@ -1,0 +1,618 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OONV-1-1-Správce-Kontaktů</name>
+    </assembly>
+    <members>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.CommandDictionary">
+            <summary>
+            Maps user input strings to corresponding command instances.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.CommandDictionary.#ctor">
+            <summary>
+            Initializes a new command dictionary.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.CommandDictionary.AddInputPair(System.String,OONV_1_1_Správce_Kontaktů.Commands.Interface.ICommand)">
+            <summary>
+            Adds a user input string mapped to a command.
+            </summary>
+            <param name="key">The user input string.</param>
+            <param name="value">The command to execute.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.CommandDictionary.GetDictionary">
+            <summary>
+            Gets the internal dictionary for command lookup.
+            </summary>
+            <returns>A dictionary of input-command pairs.</returns>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.CommandManager">
+            <summary>
+            Central class responsible for executing and managing undoable commands.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.CommandManager.#ctor">
+            <summary>
+            Initializes the command manager and its internal command stack.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.CommandManager.ExecuteCommand(OONV_1_1_Správce_Kontaktů.Commands.Interface.ICommand)">
+            <summary>
+            Executes a command and stores it for potential undo.
+            </summary>
+            <param name="command">The command to execute.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.CommandManager.UndoLastCommand">
+            <summary>
+            Undoes the last executed command if any exist.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.CommandRenderAlphabeticalContacts">
+            <summary>
+            Command to render contacts in alphabetical order in the contact list view.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.CommandRenderAlphabeticalContacts.#ctor(OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList)">
+            <summary>
+            Initializes the command with a reference to the contact list view.
+            </summary>
+            <param name="viewContactListReff">The contact list view to operate on.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.CommandRenderAlphabeticalContacts.Execute">
+            <summary>
+            Renders the contact list sorted alphabetically.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.CommandRenderAlphabeticalContacts.Undo">
+            <summary>
+            Reverts the view back to its default rendering.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCopyContact">
+            <summary>
+            Command to create a copy of a given contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCopyContact.#ctor(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Initializes the copy command with a reference to the contact.
+            </summary>
+            <param name="contact">The contact to copy.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCopyContact.Execute">
+            <summary>
+            Executes the copy action.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCopyContact.Undo">
+            <summary>
+            Undoes the copy by removing the original reference.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCreateNewContact">
+            <summary>
+            Command to add a newly created contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCreateNewContact.#ctor(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Initializes the command with the new contact to add.
+            </summary>
+            <param name="contact">The contact to add.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCreateNewContact.Execute">
+            <summary>
+            Executes the addition of the contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandCreateNewContact.Undo">
+            <summary>
+            Undoes the addition by removing the contact.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandEditContact">
+            <summary>
+            Command to update a contact's information.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandEditContact.#ctor(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact,OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Initializes the edit command with old and new contact data.
+            </summary>
+            <param name="contact">The original contact reference.</param>
+            <param name="updatedContact">The new contact data.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandEditContact.Execute">
+            <summary>
+            Applies the update to the contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandEditContact.Undo">
+            <summary>
+            Reverts the contact back to original data.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandRemoveContact">
+            <summary>
+            Command to remove a contact and return to the previous view.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandRemoveContact.#ctor(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Initializes the remove command with a reference to the contact.
+            </summary>
+            <param name="contact">The contact to delete.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandRemoveContact.Execute">
+            <summary>
+            Removes the contact and navigates back.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandRemoveContact.Undo">
+            <summary>
+            Undoes the removal by re-adding the contact.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandSaveContacts">
+            <summary>
+            Command to save all current contacts.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandSaveContacts.Execute">
+            <summary>
+            Executes saving of contacts.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation.CommandSaveContacts.Undo">
+            <summary>
+            Cannot undo a save operation.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactCreationView">
+            <summary>
+            Command to enter the contact creation view.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactCreationView.Execute">
+            <summary>
+            Pushes the contact creation view onto the navigation stack.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactCreationView.Undo">
+            <summary>
+            Pops the contact creation view off the navigation stack.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactListView">
+            <summary>
+            Command to navigate to the contact list view.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactListView.Execute">
+            <summary>
+            Pushes the contact list view onto the navigation stack.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactListView.Undo">
+            <summary>
+            Pops the contact list view off the navigation stack.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactViewing">
+            <summary>
+            Command to navigate to the view for displaying a specific contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactViewing.#ctor(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Initializes the command with a contact to display.
+            </summary>
+            <param name="contact">The contact to set as active and view.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactViewing.Execute">
+            <summary>
+            Sets the active contact and opens the viewing screen.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation.CommandEnterContactViewing.Undo">
+            <summary>
+            Returns to the previous view.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Commands.Interface.ICommand">
+            <summary>
+            Represents a command with executable and undoable behavior.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Interface.ICommand.Execute">
+            <summary>
+            Executes the command's main logic.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Commands.Interface.ICommand.Undo">
+            <summary>
+            Undoes the effect of the command.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView">
+            <summary>
+            Interface for views in the console application.
+            Defines lifecycle and input-handling methods for views.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView.Initialize">
+            <summary>
+            Initializes the view. Called when the view becomes active.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView.Render">
+            <summary>
+            Renders the view output to the console.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView.HandleInput(System.String)">
+            <summary>
+            Handles user input specific to the view.
+            </summary>
+            <param name="input">Input string from the user.</param>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager">
+            <summary>
+            Manages navigation through different views in the console application using a stack.
+            Implements the Singleton pattern to ensure only one instance exists.
+            </summary>
+        </member>
+        <member name="F:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager._viewStack">
+            <summary>
+            Stack that holds the navigation history of views.
+            </summary>
+        </member>
+        <member name="F:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager._currentView">
+            <summary>
+            The current active view being displayed.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager"/> class.
+            Creates an empty stack of views.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager.PushView(OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView)">
+            <summary>
+            Pushes a new view onto the navigation stack and displays it.
+            </summary>
+            <param name="view">The view to be pushed and shown.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager.PopView">
+            <summary>
+            Pops the current view from the navigation stack and displays the previous view.
+            Does nothing if only one view is on the stack.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager.ShowView(OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView)">
+            <summary>
+            Displays the specified view by clearing the console and rendering the view.
+            </summary>
+            <param name="view">The view to be displayed.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager.HandleInput(System.String)">
+            <summary>
+            Handles user input globally or delegates it to the current view.
+            Supports global commands like "back", "undo", and "exit".
+            </summary>
+            <param name="input">The user input string.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.NavigationManager.GetCurrentView">
+            <summary>
+            Gets the current active view.
+            </summary>
+            <returns>The current <see cref="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Interface.IView"/>.</returns>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactCreation">
+            <summary>
+            View for creating a new contact step-by-step via user input.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactCreation.ContactCreationStep">
+            <summary>
+            Steps of the contact creation wizard.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactCreation.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactCreation.Render">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactCreation.HandleInput(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactCreation.FinalizeContactCreation">
+            <summary>
+            Finalizes the creation of a contact and registers the creation command.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList">
+            <summary>
+            View that displays and manages the contact list.
+            Supports command execution and list rendering modes.
+            </summary>
+        </member>
+        <member name="F:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.ContactIdPairs">
+            <summary>
+            Mapping between displayed contact IDs and actual contact instances.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.SetupCommands">
+            <summary>
+            Initializes available commands for the view.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.Render">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.HandleInput(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.RenderClassicList">
+            <summary>
+            Renders contacts in their original order with indexed IDs.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactList.RenderAlphabeticalList">
+            <summary>
+            Renders contacts sorted alphabetically using a custom iterator.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactViewing">
+            <summary>
+            View for displaying and editing a single active contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactViewing.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactViewing.SetupCommands">
+            <summary>
+            Sets up available commands for copying and deleting the contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactViewing.Render">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewContactViewing.HandleInput(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewMainMenu">
+            <summary>
+            Entry view that displays the main menu options.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewMainMenu.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewMainMenu.Render">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views.ViewMainMenu.HandleInput(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ContactSystem.Contact">
+            <summary>
+            Represents a contact with basic information like name, email, and phone number.
+            Implements prototype pattern for cloning.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.Contact.Copy">
+            <summary>
+            Creates a copy of this contact with "(Copy)" appended to the name.
+            </summary>
+            <returns>A new copied Contact instance.</returns>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.Contact.Copy(System.Boolean)">
+            <summary>
+            Creates a copy of this contact.
+            Optionally keeps the same name without "(Copy)" suffix.
+            </summary>
+            <param name="sameName">If true, copy has the same name.</param>
+            <returns>A new copied Contact instance.</returns>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.Contact.ToJson">
+            <summary>
+            Serializes the contact to a JSON string.
+            </summary>
+            <returns>JSON string representation of the contact.</returns>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.Contact.FromJson(System.String)">
+            <summary>
+            Deserializes a JSON string into this contact's properties.
+            </summary>
+            <param name="json">JSON string representing a contact.</param>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager">
+            <summary>
+            Manages contacts, providing CRUD, persistence, and iteration features.
+            Implements singleton pattern.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.AddContact(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Adds a contact to the contact list.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.CreateContactCopy(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact,System.Boolean)">
+            <summary>
+            Creates a copy of a contact and adds it to the list.
+            </summary>
+            <param name="contact">Contact to copy.</param>
+            <param name="copySameName">Whether to keep the same name.</param>
+            <returns>The copied contact.</returns>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.CreateTemporaryCopy(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Creates a temporary copy of a contact without adding it to the list.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.UpdateContact(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact,OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Updates an existing contact with data from another contact.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.DeleteContact(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Removes a contact from the list.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.SaveContacts">
+            <summary>
+            Saves all contacts to a JSON file.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.LoadContacts">
+            <summary>
+            Loads contacts from the JSON file.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.GetContactListAsJson">
+            <summary>
+            Returns all contacts serialized as a JSON array string.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.GetContactList">
+            <summary>
+            Gets the full contact list.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.GetContactIterator(OONV_1_1_Správce_Kontaktů.Iterator.Interface.ListIteratorType)">
+            <summary>
+            Returns an iterator for the contact list based on specified type.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.SetActiveContact(OONV_1_1_Správce_Kontaktů.ContactSystem.Contact)">
+            <summary>
+            Sets the active contact being edited.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.ContactManager.GetActiveContact">
+            <summary>
+            Gets the currently active contact.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.ContactSystem.FileManager">
+            <summary>
+            Provides file operations for saving and loading JSON data.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.FileManager.SaveIntoFile(System.String,System.String)">
+            <summary>
+            Saves a JSON string into a file, creating directories if needed.
+            </summary>
+            <param name="fileName">The file path to save to.</param>
+            <param name="jsonString">The JSON content to write.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.ContactSystem.FileManager.GetFileAsString(System.String)">
+            <summary>
+            Reads the entire content of a file as a string.
+            </summary>
+            <param name="fileName">The file path to read from.</param>
+            <returns>File content as string, or empty if file does not exist.</returns>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Interface.IPrototype`1">
+            <summary>
+            Defines a prototype pattern interface for creating a copy of an object.
+            </summary>
+            <typeparam name="T">Type of the object to copy.</typeparam>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Interface.IPrototype`1.Copy">
+            <summary>
+            Creates a copy of the current object.
+            </summary>
+            <returns>A new copy of type T.</returns>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Interface.Singleton`1">
+            <summary>
+            Provides a base class for singleton pattern implementation.
+            Ensures only one instance of the derived class exists.
+            </summary>
+            <typeparam name="T">The singleton type.</typeparam>
+        </member>
+        <member name="P:OONV_1_1_Správce_Kontaktů.Interface.Singleton`1.Instance">
+            <summary>
+            Gets the single instance of the singleton.
+            Creates the instance if it does not exist.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator">
+            <summary>
+            Iterator that iterates over a list of contacts in alphabetical order by name.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator.#ctor(System.Collections.Generic.List{OONV_1_1_Správce_Kontaktů.ContactSystem.Contact})">
+            <summary>
+            Initializes a new instance of <see cref="T:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator"/> with the given list.
+            Sorts the list alphabetically by contact name.
+            </summary>
+            <param name="givenList">List of contacts to iterate over.</param>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator.ArrangeList">
+            <summary>
+            Sorts the internal list alphabetically by contact name.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator.HasNext">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator.GetNext">
+            <inheritdoc/>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.ContactAlphabeticalIterator.GetCurrentIndex">
+            <inheritdoc/>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Iterator.Interface.IIterator`1">
+            <summary>
+            Generic iterator interface defining methods to iterate over a collection.
+            </summary>
+            <typeparam name="T">Type of elements to iterate over.</typeparam>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.Interface.IIterator`1.HasNext">
+            <summary>
+            Checks if there are more elements to iterate over.
+            </summary>
+            <returns>True if more elements exist; otherwise, false.</returns>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.Interface.IIterator`1.GetNext">
+            <summary>
+            Gets the next element in the iteration.
+            </summary>
+            <returns>The next element of type T.</returns>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.Iterator.Interface.IIterator`1.GetCurrentIndex">
+            <summary>
+            Gets the current index in the iteration.
+            </summary>
+            <returns>The zero-based index of the current element.</returns>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.Iterator.Interface.ListIteratorType">
+            <summary>
+            Types of list iterators supported.
+            </summary>
+        </member>
+        <member name="T:OONV_1_1_Správce_Kontaktů.MainClass">
+            <summary>
+            Entry point of the application, responsible for starting the main navigation loop.
+            </summary>
+        </member>
+        <member name="M:OONV_1_1_Správce_Kontaktů.MainClass.Main(System.String[])">
+            <summary>
+            Main method invoked at application start.
+            Initializes navigation and starts input handling loop.
+            </summary>
+            <param name="args">Command line arguments.</param>
+        </member>
+    </members>
+</doc>

@@ -8,7 +8,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem {
     /// Manages navigation through different views in the console application using a stack.
     /// Implements the Singleton pattern to ensure only one instance exists.
     /// </summary>
-    internal class NavigationManager : Singleton<NavigationManager> {
+    public class NavigationManager : Singleton<NavigationManager> {
         /// <summary>
         /// Stack that holds the navigation history of views.
         /// </summary>

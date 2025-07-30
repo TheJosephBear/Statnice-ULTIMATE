@@ -8,7 +8,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     /// <summary>
     /// View for creating a new contact step-by-step via user input.
     /// </summary>
-    internal class ViewContactCreation : IView {
+    public class ViewContactCreation : IView {
         private Contact _newContactInProgress;
         private ContactCreationStep _creationStep;
 

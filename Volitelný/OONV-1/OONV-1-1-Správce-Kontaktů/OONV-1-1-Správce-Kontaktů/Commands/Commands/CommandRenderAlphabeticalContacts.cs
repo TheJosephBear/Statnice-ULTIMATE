@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands {
     /// <summary>
     /// Command to render contacts in alphabetical order in the contact list view.
     /// </summary>
-    internal class CommandRenderAlphabeticalContacts : ICommand {
+    public class CommandRenderAlphabeticalContacts : ICommand {
         private ViewContactList _viewInstanceReff;
 
         /// <summary>

@@ -8,7 +8,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     /// <summary>
     /// View for displaying and editing a single active contact.
     /// </summary>
-    internal class ViewContactViewing : IView {
+    public class ViewContactViewing : IView {
         private CommandDictionary _commandDictionary;
         private Contact activeContact;
 

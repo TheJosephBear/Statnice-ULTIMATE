@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
     /// <summary>
     /// Command to update a contact's information.
     /// </summary>
-    internal class CommandEditContact : ICommand {
+    public class CommandEditContact : ICommand {
         private Contact _contactReff;
         private Contact _updatedContactReff;
         private Contact _originalContactInfo;

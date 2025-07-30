@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.ContactManipulation {
     /// <summary>
     /// Command to add a newly created contact.
     /// </summary>
-    internal class CommandCreateNewContact : ICommand {
+    public class CommandCreateNewContact : ICommand {
         private Contact _newContact;
 
         /// <summary>

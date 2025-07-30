@@ -6,7 +6,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation {
     /// <summary>
     /// Command to navigate to the contact list view.
     /// </summary>
-    internal class CommandEnterContactListView : ICommand {
+    public class CommandEnterContactListView : ICommand {
         /// <summary>
         /// Pushes the contact list view onto the navigation stack.
         /// </summary>

@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Iterator {
     /// <summary>
     /// Iterator that iterates over a list of contacts in alphabetical order by name.
     /// </summary>
-    internal class ContactAlphabeticalIterator : IIterator<Contact> {
+    public class ContactAlphabeticalIterator : IIterator<Contact> {
         private List<Contact> _list;
         private int _index = 0;
 

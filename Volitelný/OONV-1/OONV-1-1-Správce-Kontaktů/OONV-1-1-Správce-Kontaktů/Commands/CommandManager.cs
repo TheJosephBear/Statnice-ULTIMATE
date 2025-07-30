@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands {
     /// <summary>
     /// Central class responsible for executing and managing undoable commands.
     /// </summary>
-    internal class CommandManager : Singleton<CommandManager> {
+    public class CommandManager : Singleton<CommandManager> {
         private Stack<ICommand> commands;
 
         /// <summary>

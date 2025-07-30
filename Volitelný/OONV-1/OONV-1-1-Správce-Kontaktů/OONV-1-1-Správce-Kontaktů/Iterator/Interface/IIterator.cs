@@ -3,7 +3,7 @@
     /// Generic iterator interface defining methods to iterate over a collection.
     /// </summary>
     /// <typeparam name="T">Type of elements to iterate over.</typeparam>
-    internal interface IIterator<T> {
+    public interface IIterator<T> {
         /// <summary>
         /// Checks if there are more elements to iterate over.
         /// </summary>

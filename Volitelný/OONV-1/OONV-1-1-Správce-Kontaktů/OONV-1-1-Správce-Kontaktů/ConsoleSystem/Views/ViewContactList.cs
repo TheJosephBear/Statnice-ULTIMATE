@@ -12,7 +12,7 @@ namespace OONV_1_1_Správce_Kontaktů.ConsoleSystem.Views {
     /// View that displays and manages the contact list.
     /// Supports command execution and list rendering modes.
     /// </summary>
-    internal class ViewContactList : IView {
+    public class ViewContactList : IView {
         private CommandDictionary _commandDictionary;
         private bool _renderClassicList = true;
 

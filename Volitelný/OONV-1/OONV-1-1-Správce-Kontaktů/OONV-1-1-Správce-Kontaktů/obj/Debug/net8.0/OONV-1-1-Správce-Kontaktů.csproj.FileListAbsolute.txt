@@ -36,3 +36,4 @@ C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OON
 C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\Build\Debug\net8.0\OONV-1-1-Správce-Kontaktů.pdb
 C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\Build\Debug\net8.0\OONV-1-1-Správce-Kontaktů.xml
 C:\Users\popa4\OneDrive\Dokumenty\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.xml
+C:\Users\josef\Documents\GitHub\Statnice-ULTIMATE\Volitelný\OONV-1\OONV-1-1-Správce-Kontaktů\OONV-1-1-Správce-Kontaktů\obj\Debug\net8.0\OONV-1-1-Správce-Kontaktů.xml

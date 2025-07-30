@@ -4,7 +4,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands {
     /// <summary>
     /// Maps user input strings to corresponding command instances.
     /// </summary>
-    internal class CommandDictionary {
+    public class CommandDictionary {
         private Dictionary<string, ICommand> _dictionary;
 
         /// <summary>

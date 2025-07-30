@@ -6,7 +6,7 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
     /// Represents a contact with basic information like name, email, and phone number.
     /// Implements prototype pattern for cloning.
     /// </summary>
-    internal class Contact : IPrototype<Contact> {
+    public class Contact : IPrototype<Contact> {
         public string Name { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
@@ -21,6 +21,15 @@ namespace OONV_1_1_Správce_Kontaktů.ContactSystem {
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
+        }
+
+        public Contact(string name, string email) {
+            Name = name;
+            Email = email;
+        }
+
+        public Contact(string name) {
+            Name = name;
         }
 
         /// <summary>

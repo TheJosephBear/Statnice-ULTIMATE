@@ -5,7 +5,7 @@ namespace OONV_1_1_Správce_Kontaktů {
     /// <summary>
     /// Entry point of the application, responsible for starting the main navigation loop.
     /// </summary>
-    internal class MainClass {
+    public class MainClass {
         /// <summary>
         /// Main method invoked at application start.
         /// Initializes navigation and starts input handling loop.

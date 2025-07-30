@@ -7,7 +7,7 @@ namespace OONV_1_1_Správce_Kontaktů.Commands.Commands.Navigation {
     /// <summary>
     /// Command to navigate to the view for displaying a specific contact.
     /// </summary>
-    internal class CommandEnterContactViewing : ICommand {
+    public class CommandEnterContactViewing : ICommand {
         private Contact _contactReff;
 
         /// <summary>

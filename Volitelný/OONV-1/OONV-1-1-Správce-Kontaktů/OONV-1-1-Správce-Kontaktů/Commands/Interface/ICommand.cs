@@ -2,7 +2,7 @@
     /// <summary>
     /// Represents a command with executable and undoable behavior.
     /// </summary>
-    internal interface ICommand {
+    public interface ICommand {
         /// <summary>
         /// Executes the command's main logic.
         /// </summary>
