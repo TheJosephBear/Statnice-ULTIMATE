@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="accounts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="account" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="username" type="xs:string"/>
+              <xs:element name="password" type="xs:string"/>
+              <xs:element name="email" type="xs:string"/>
+              <xs:element name="created_at" type="xs:dateTime"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>
