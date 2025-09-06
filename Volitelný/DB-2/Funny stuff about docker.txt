@@ -1,0 +1,23 @@
+When i want to run the container with the debug=true (when i save a change it actually changes)(have to be in the app folder):
+    docker run -p 5000:5000 -v ${PWD}:/app nosql-mongo-projekt
+when i want to simply run the container:
+    docker run -p 5000:5000 nosql-mongo-projekt
+building the docker image:
+    docker build -t nosql-mongo-projekt ./app
+
+
+ok takže až to budu dělat znovu na novém projektu tak kroky jsou: 
+- dockerfile kde se vytvoří flask image + další potřebný knihovny co to bude používat 
+- napsat docker compose kde je napsaný jaký všechny images se mají 
+    stáhnout nebo vybrat lokálně a spustit najednou 
+- spustit docker compose up (ten vybuildí lokální image, stáhne externí image a spustí
+     všechny kontejnery a mohu pracovat)
+     -> docker compose up (zároven i spustí a je to realne jediny potřebný command)
+- vždycky když spadne ten image tak musím rebuildnout a pak spustit znovu:
+    -> docker compose down -v
+    -> docker compose build
+    -> docker compose up
+
+Jakmile chci uložit obsah mongo databáze:
+    -> docker exec mongo_container_name mongodump --archive=/data/backup.archive
+    -> docker cp mongo_container_name:/data/backup.archive ./data/backup.archive
