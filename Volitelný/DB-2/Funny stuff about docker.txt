@@ -19,5 +19,5 @@ ok takže až to budu dělat znovu na novém projektu tak kroky jsou:
     -> docker compose up
 
 Jakmile chci uložit obsah mongo databáze:
-    -> docker exec mongo_container_name mongodump --archive=/data/backup.archive
-    -> docker cp mongo_container_name:/data/backup.archive ./data/backup.archive
+    -> docker exec -it mongo mongodump --archive=/data/backup.archive --username admin --password secret --authenticationDatabase admin
+    -> docker cp mongo:/data/backup.archive ./backup.archive

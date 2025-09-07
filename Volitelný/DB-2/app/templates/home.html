@@ -4,9 +4,12 @@
 Home
 {% endblock %}
 
-
 {% block main %}
 <div id="game">
-    Ahoj :-))))
+    <h3>Gender Distribution</h3>
+    <img src="data:image/png;base64,{{ charts['gender_chart'] }}" alt="Gender Chart">
+    
+    <h3>Age Distribution</h3>
+    <img src="data:image/png;base64,{{ charts['age_chart'] }}" alt="Age Chart">
 </div>
 {% endblock %}
